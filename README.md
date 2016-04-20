@@ -1,5 +1,5 @@
-Madsonic Ubuntu docker image 
-============================
+Madsonic Beta Ubuntu docker image 
+=================================
 
 **Application**
 
@@ -27,7 +27,7 @@ docker run -d \
 	-v <path for media files>:/media \
 	-v <path for config files>:/config \
 	-v /etc/localtime:/etc/localtime:ro \
-	madsonic/ubuntu-madsonic
+	madsonic/ubuntu-madsonic-beta
 ```
 
 Please replace all user variables in the above command defined by <> with the correct values.
@@ -48,5 +48,5 @@ docker run -d \
 	-v /media/music/:/media \
 	-v /apps/docker/madsonic:/config \
 	-v /etc/localtime:/etc/localtime:ro \
-	madsonic/ubuntu-madsonic
+	madsonic/ubuntu-madsonic-beta
 ```
